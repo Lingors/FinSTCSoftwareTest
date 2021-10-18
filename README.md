@@ -7,7 +7,7 @@ Here is a **test.xsl** file created to process **test.xml**. This xslt creates a
 
 ## Configuring and Configuring Launch
 
-Python must be installed.
+Python must be installed.  
 In order to get the **result.xml** file, let's use the script I wrote.  
 First, we need to install the lxml library, you can do this by entering into the command line  
 `pip install lxml`  
