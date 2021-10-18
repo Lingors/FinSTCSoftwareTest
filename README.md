@@ -2,21 +2,21 @@
 
 # Пункт 1. XSLT test task
 
-Здесь создан файл  **test.xsl** для обработки **test.xml**. Этот xslt создаёт файл **result.xml** (на основе данных **test.xml**) по следующим условиям:
-* отфильтрованы accountTransaction узлы, которые имеют ноду updateDate со значением 2012-12-12 И значение ноды spValue начинается на BT.
+Here is a **test.xsl** file created to process **test.xml**. This xslt creates a **result.xml** file (based on ** test.xml ** data) under the following conditions:  
+* filtered out accountTransaction nodes that have an updateDate node with a value 2012-12-12 AND the value of the spValue node starts with BT.
 
-## Конфигурация и настройка запуска
+## Configuring and Configuring Launch
 
-Необходимо установить Python.
-Для того, чтобы получить файл **result.xml**, воспользуемся скриптом, который написал я.
-Для начала нам необходимо установить библеотеку lxml, сделать это можно введя в командную строку  
-`pip install lxml`
+Python must be installed.
+In order to get the **result.xml** file, let's use the script I wrote.  
+First, we need to install the lxml library, you can do this by entering into the command line  
+`pip install lxml`  
 
-Далее, в папку со скриптом необходимо поместить файлы **test.xml** и **test.xsl**. В командной строке ввести команду  
+Next, the files **test.xml** and **test.xsl** must be placed in the folder with the script. In the command line, enter the command  
 `python main.py test.xml test.xsl`  
-Названия файлов могут быть любыми, главное xml должен быть первым аргументом, а xsl вторым.
+File names can be anything, the main xml should be the first argument, and xsl the second.  
 
-После выполнения данной команды в текущей папке будет создан конечный файл **result.xml**.
+After executing this command, the final file **result.xml** will be created in the current folder.  
 
 # Пункт 2. What is XSD, examples of financial XSD
 
