@@ -2,7 +2,7 @@
 
 # Пункт 1. XSLT test task
 
-Here is a **test.xsl** file created to process **test.xml**. This xslt creates a **result.xml** file (based on ** test.xml ** data) under the following conditions:  
+Here is a **test.xsl** file created to process **test.xml**. This xslt creates a **result.xml** file (based on **test.xml** data) under the following conditions:  
 * filtered out accountTransaction nodes that have an updateDate node with a value 2012-12-12 AND the value of the spValue node starts with BT.
 
 ## Configuring and Configuring Launch
